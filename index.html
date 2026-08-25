@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aniversário do Austin — 1 aninho</title>
+<meta name="description" content="Austin faz 1 aninho! Sábado, 05/09/2026, das 13h às 16h, na Chácara da Vovó Juju. Confirme sua presença.">
+<meta name="theme-color" content="#BFDEC2">
+
+<!-- Prévia do link no WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Austin faz 1 aninho! 🎈">
+<meta property="og:description" content="Sábado, 05/09/2026 · 13h às 16h · Chácara da Vovó Juju. Toque para abrir o convite e confirmar sua presença.">
+<meta property="og:image" content="assets/share.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Patrick+Hand&family=Bree+Serif&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     FAIXAS FIXAS DO TOPO — só aparecem depois do RSVP positivo
+     ============================================================ -->
+<header class="topbar" id="topbar" hidden>
+  <div class="topbar__main">
+    <strong>05/09/2026 &bull; 13h&ndash;16h</strong>
+    <span>Chácara da Vovó Juju</span>
+  </div>
+  <div class="topbar__count" id="contador">⏳ Carregando…</div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ============================================================
+       1. ABERTURA — acesso livre
+       ============================================================ -->
+  <section class="abertura" id="abertura">
+    <div class="moldura">
+      <div class="cena">
+
+        <!-- Bandeirinhas -->
+        <div class="bandeirinhas" aria-hidden="true">
+          <svg class="bandeirinhas__cordao" viewBox="0 0 100 6" preserveAspectRatio="none">
+            <path d="M0 1 Q 25 5 50 1.6 T 100 1" fill="none" stroke="#7a6a55" stroke-width="0.5"/>
+          </svg>
+          <div class="bandeirinhas__fila">
+            <i style="--e:url('assets/estampas/estampa-01.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-02.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-03.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-04.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-05.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-06.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-07.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-08.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-09.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-10.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-11.webp')"></i>
+            <i style="--e:url('assets/estampas/estampa-12.webp')"></i>
+          </div>
+        </div>
+
+        <!-- Céu -->
+        <img class="cena__sol"    src="assets/cena/sol.webp"       alt="" aria-hidden="true">
+        <img class="cena__nuvem1" src="assets/cena/nuvem.webp"     alt="" aria-hidden="true">
+        <img class="cena__nuvem2" src="assets/cena/nuvem.webp"     alt="" aria-hidden="true">
+        <img class="cena__nuvem3" src="assets/cena/nuvem.webp"     alt="" aria-hidden="true">
+        <img class="cena__arco"   src="assets/cena/arco-iris.webp" alt="" aria-hidden="true">
+
+        <!-- Título -->
+        <h1 class="titulo">
+          <span class="titulo__script">Aniversári</span><span class="titulo__patinha" aria-hidden="true">
+            <svg viewBox="0 0 64 64"><g fill="#1c1c1c">
+              <ellipse cx="32" cy="42" rx="17" ry="14"/>
+              <ellipse cx="13" cy="26" rx="7.5" ry="9.5" transform="rotate(-18 13 26)"/>
+              <ellipse cx="26" cy="17" rx="7" ry="10"/>
+              <ellipse cx="41" cy="17" rx="7" ry="10"/>
+              <ellipse cx="53" cy="27" rx="7.5" ry="9.5" transform="rotate(18 53 27)"/>
+            </g></svg>
+          </span>
+          <span class="sr-only">Aniversário do Austin, 1 aninho</span>
+        </h1>
+
+        <!-- Nome -->
+        <p class="nome" aria-hidden="true">
+          <span style="--c:#6FC48D">A</span><span style="--c:#3FA7E0">U</span><span style="--c:#F07C36">S</span><span style="--c:#7B54DC">T</span><span style="--c:#EA5347">I</span><span style="--c:#F0BE22">N</span>
+        </p>
+
+        <!-- Número 1 + aninho -->
+        <img class="cena__um" src="assets/cena/numero-1.webp" alt="" aria-hidden="true">
+        <p class="aninho" aria-hidden="true">
+          <span style="--c:#EF6A5E">a</span><span style="--c:#F58C4B">n</span><span style="--c:#57B98A">i</span><span style="--c:#8B6BE0">n</span><span style="--c:#5AB6E8">h</span><span style="--c:#F5C93F">o</span>
+        </p>
+
+        <!-- Chão -->
+        <img class="cena__arvoreA" src="assets/cena/arvore-a.webp" alt="" aria-hidden="true">
+        <img class="cena__arvoreB" src="assets/cena/arvore-b.webp" alt="" aria-hidden="true">
+        <div class="cena__grama" aria-hidden="true"></div>
+        <img class="cena__bebe" src="assets/bebe/austin-deitado.webp" alt="Austin, o aniversariante" fetchpriority="high">
+
+        <!-- Bichinhos dentro da cena -->
+        <img class="bicho b1" src="assets/bichinhos/gato-branco.webp"        alt="" aria-hidden="true">
+        <img class="bicho b2" src="assets/bichinhos/gato-wakanda.webp"       alt="" aria-hidden="true">
+        <img class="bicho b3" src="assets/bichinhos/gato-siames.webp"        alt="" aria-hidden="true">
+        <img class="bicho b4" src="assets/bichinhos/tucano.webp"             alt="" aria-hidden="true">
+        <img class="bicho b5" src="assets/bichinhos/tartaruga-a.webp"        alt="" aria-hidden="true">
+        <img class="bicho b6" src="assets/bichinhos/tartaruga-b.webp"        alt="" aria-hidden="true">
+        <img class="bicho b7" src="assets/bichinhos/gato-duque.webp"         alt="" aria-hidden="true">
+        <img class="bicho b8" src="assets/bichinhos/gato-ariel.webp"         alt="" aria-hidden="true">
+      </div>
+    </div>
+
+    <!-- Fora da moldura -->
+    <div class="data">
+      <span class="data__dia">Sábado</span>
+      <span class="data__num" aria-hidden="true">05/09/26</span>
+      <span class="sr-only">Sábado, 5 de setembro de 2026</span>
+    </div>
+
+    <div class="orla" aria-hidden="true">
+      <img class="bicho o1" src="assets/bichinhos/cachorro-coleira.webp" alt="">
+      <img class="bicho o2" src="assets/bichinhos/dachshund-caramelo.webp" alt="">
+      <img class="bicho o3" src="assets/bichinhos/dachshund-preto.webp" alt="">
+      <img class="bicho o4" src="assets/bichinhos/gato-laranja-a.webp" alt="">
+      <img class="bicho o5" src="assets/bichinhos/gato-preto-branco.webp" alt="">
+      <img class="bicho o6" src="assets/bichinhos/gato-festa.webp" alt="">
+      <img class="bicho o7" src="assets/bichinhos/gato-felicity.webp" alt="">
+      <img class="bicho o8" src="assets/bichinhos/beagle-cartola.webp" alt="">
+    </div>
+
+    <p class="rolar">Role para baixo para ver o convite completo!</p>
+    <button class="btn-principal" type="button" id="abrir-rsvp">Confirme a presença</button>
+  </section>
+
+  <!-- ============================================================
+       2. CONTEÚDO PROTEGIDO
+       ============================================================ -->
+  <div id="protegido" hidden>
+
+    <section class="bloco boasvindas" id="boasvindas">
+      <p>Estamos muito felizes em celebrar esse momento especial com você.</p>
+      <p class="boasvindas__assinatura">Com carinho, os pais do Austin</p>
+    </section>
+
+    <!-- Presentes -->
+    <section class="presentes" id="presentes">
+      <div class="arco">
+        <svg class="arco__titulo" viewBox="0 0 320 58" aria-hidden="true">
+          <defs><path id="curva" d="M 20 52 A 260 260 0 0 1 300 52"/></defs>
+          <text><textPath href="#curva" startOffset="50%" text-anchor="middle">Presentinhos pro Austin</textPath></text>
+        </svg>
+        <h2 class="sr-only">Presentinhos pro Austin</h2>
+
+        <div class="cards">
+          <a class="card card--body" data-link="riachuelo" href="#" target="_blank" rel="noopener">
+            <img src="assets/presentes/body.webp" alt="" aria-hidden="true" class="card__forma" loading="lazy">
+            <span class="card__texto">
+              <em>clique e dê qualquer valor de vale presente da</em>
+              <img src="assets/presentes/logo-riachuelo.webp" alt="Riachuelo" loading="lazy">
+            </span>
+          </a>
+
+          <a class="card card--coracao" data-link="amazon" href="#" target="_blank" rel="noopener">
+            <img src="assets/presentes/patinho.webp" alt="" aria-hidden="true" class="card__icone" loading="lazy">
+            <span class="card__texto">
+              <em>clique e veja presentes na</em>
+              <img src="assets/presentes/logo-amazon.webp" alt="Amazon" loading="lazy">
+            </span>
+          </a>
+
+          <a class="card card--nuvem" data-link="shopee" href="#" target="_blank" rel="noopener">
+            <img src="assets/presentes/argolas.webp" alt="" aria-hidden="true" class="card__icone" loading="lazy">
+            <span class="card__texto">
+              <em>clique e veja presentes na</em>
+              <img src="assets/presentes/logo-shopee.webp" alt="Shopee" loading="lazy">
+            </span>
+          </a>
+
+          <a class="card card--pipa" data-link="mercadolivre" href="#" target="_blank" rel="noopener">
+            <img src="assets/presentes/blocos.webp" alt="" aria-hidden="true" class="card__icone" loading="lazy">
+            <span class="card__texto">
+              <em>clique e veja presentes no</em>
+              <img src="assets/presentes/logo-mercadolivre.webp" alt="Mercado Livre" loading="lazy">
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Localização -->
+    <section class="bloco local" id="local">
+      <h2 class="titulo-secao">
+        <img src="assets/icones/pin.webp" alt="" aria-hidden="true" loading="lazy">
+        Endereço
+      </h2>
+      <p class="local__nome">Chácara Pinheiro Ramos</p>
+      <p class="local__rua">Rua Angelo Marcondes de Castro, <b>615</b></p>
+      <p class="local__bairro">Bairro Bom Jardim / Parque das Garças<br>Guaratinguetá&nbsp;&ndash;&nbsp;SP</p>
+      <div class="local__botoes">
+        <a class="btn-mapa btn-mapa--maps" data-link="maps" href="#" target="_blank" rel="noopener">Google Maps</a>
+        <a class="btn-mapa btn-mapa--waze" data-link="waze" href="#" target="_blank" rel="noopener">Waze</a>
+      </div>
+    </section>
+
+    <!-- Programação -->
+    <section class="bloco programacao" id="programacao">
+      <h2 class="titulo-secao">
+        <img src="assets/icones/relogio.webp" alt="" aria-hidden="true" loading="lazy">
+        Programação
+      </h2>
+      <ol class="agenda">
+        <li><b>13h</b><span>Acordando da soneca + bate patinhas e palminhas pro aniversariante!</span></li>
+        <li><b>14h30</b><span>Hora de papar o lanchinho da tarde, barriguinha feliz, vamos brincar!</span></li>
+        <li><b>16h</b><span>Soneca do aniversariante.</span></li>
+      </ol>
+    </section>
+
+    <!-- Informações importantes -->
+    <section class="bloco infos" id="informacoes">
+      <h2 class="titulo-secao titulo-secao--simples">Informações importantes</h2>
+
+      <article class="info">
+        <h3>Crianças</h3>
+        <p>Os adultos são responsáveis pelas crianças durante todo o evento. A ideia é que todos os adultos presentes ajudem a cuidar de todas as crianças, tenham filhos ou não. Se perceber uma criança em situação de risco, aja para evitar o risco e procure os responsáveis por ela.</p>
+      </article>
+
+      <article class="info">
+        <h3>Traje</h3>
+        <p>É uma festa infantil em chácara, então venha com roupa e calçado confortáveis. <b>Não será permitido o uso de salto alto</b>, para a segurança de todo mundo no gramado.</p>
+      </article>
+
+      <article class="info">
+        <h3>Piscina</h3>
+        <p><b>A piscina não será utilizada durante o evento.</b> Ela vai permanecer cercada e não estará disponível aos convidados.</p>
+      </article>
+
+      <article class="info">
+        <h3>Alimentação</h3>
+        <p><b>A comemoração será em formato de coquetel</b>, com lanches e docinhos servidos ao longo da tarde. Não haverá churrasco.</p>
+      </article>
+
+      <article class="info">
+        <h3>Convidados</h3>
+        <p>Os nomes indicados no convite são os convidados da celebração, e a confirmação é individual. Se o nome de uma pessoa não estiver no convite, ela não faz parte da lista. Contamos com a compreensão de todos: a chácara tem espaço limitado e o Austin ainda é bebê.</p>
+      </article>
+    </section>
+
+    <!-- WhatsApp -->
+    <section class="bloco contato" id="contato">
+      <img class="contato__babador" src="assets/icones/babador.webp" alt="" aria-hidden="true" loading="lazy">
+      <p class="contato__pergunta">Ficou com alguma dúvida?</p>
+      <a class="contato__link" data-link="whatsapp" href="#" target="_blank" rel="noopener">Falar com os pais do Austin no WhatsApp</a>
+    </section>
+
+    <div class="rodape">
+      <button class="btn-topo" type="button" id="voltar-topo">Voltar ao topo</button>
+      <p class="rodape__nota">Te esperamos lá! 💛</p>
+    </div>
+  </div>
+</main>
+
+<!-- ============================================================
+     MODAL DE CONFIRMAÇÃO
+     ============================================================ -->
+<div class="modal" id="modal" hidden>
+  <div class="modal__fundo"></div>
+
+  <div class="modal__caixa" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+
+    <!-- Etapa 1: formulário -->
+    <div class="modal__etapa" id="etapa-form">
+      <div class="modal__topo" aria-hidden="true">
+        <img src="assets/bichinhos/gato-festa.webp" alt="">
+      </div>
+
+      <h2 class="modal__titulo" id="modal-titulo">Confirme sua presença<br>para ver o convite completo</h2>
+
+      <div class="modal__evento">
+        <p><b>05 de setembro de 2026</b></p>
+        <p>13h às 16h</p>
+        <p class="modal__local">Chácara da Vovó Juju</p>
+      </div>
+
+      <p class="modal__prazo">Confirme até <b>02/09</b>, por favor 💛</p>
+
+      <form id="form-rsvp" novalidate>
+        <fieldset class="campo">
+          <legend>Você vai?</legend>
+          <div class="opcoes">
+            <label class="opcao">
+              <input type="radio" name="presenca" value="SIM">
+              <span>Sim, vou! 🎉</span>
+            </label>
+            <label class="opcao">
+              <input type="radio" name="presenca" value="NÃO">
+              <span>Não vou conseguir</span>
+            </label>
+          </div>
+          <p class="erro" id="erro-presenca" hidden>Escolha uma das duas opções.</p>
+        </fieldset>
+
+        <div class="campo">
+          <label for="nome">Seu nome</label>
+          <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Nome e sobrenome" maxlength="80">
+          <p class="erro" id="erro-nome" hidden>Escreva seu nome para a gente saber quem confirmou.</p>
+        </div>
+
+        <div class="campo" id="campo-idades">
+          <label for="idades">Qual a idade da criança da sua família que estará presente?</label>
+          <input type="text" id="idades" name="idades" inputmode="numeric" placeholder="Ex.: 2, 5, 10" maxlength="40">
+          <p class="ajuda">Informe somente a idade em números. Se houver mais de uma criança, separe por vírgula. Se não houver criança, deixe em branco.</p>
+          <p class="erro" id="erro-idades" hidden>Use apenas números separados por vírgula. Ex.: 2, 5, 10</p>
+        </div>
+
+        <p class="modal__regra">Os nomes indicados no convite são os convidados da celebração. A confirmação é individual e não inclui acompanhantes que não estejam no convite.</p>
+
+        <button class="btn-principal btn-principal--modal" type="submit" id="btn-confirmar">Confirmar presença</button>
+        <button class="botao-texto" type="button" id="ver-convite">Ver o convite de novo</button>
+      </form>
+    </div>
+
+    <!-- Etapa 2: sucesso (SIM) -->
+    <div class="modal__etapa" id="etapa-sim" hidden>
+      <div class="modal__topo" aria-hidden="true">
+        <img src="assets/bebe/austin-janelinha.webp" alt="">
+      </div>
+      <h2 class="modal__titulo">Presença confirmada!</h2>
+      <p class="modal__mensagem">Que alegria, <b id="nome-eco">amigo</b>! O Austin já está batendo palminhas aí. Estamos liberando o convite completo pra você.</p>
+      <button class="btn-principal btn-principal--modal" type="button" id="btn-entrar">Ver o convite</button>
+    </div>
+
+    <!-- Etapa 3: recusa (NÃO) -->
+    <div class="modal__etapa" id="etapa-nao" hidden>
+      <div class="modal__topo" aria-hidden="true">
+        <img src="assets/bichinhos/rato-soneca.webp" alt="">
+      </div>
+      <h2 class="modal__titulo">Tudo bem!</h2>
+      <p class="modal__mensagem">Agradecemos por nos avisar. 💛</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- iframe invisível que recebe a resposta do Google Forms -->
+<iframe name="destino-forms" id="destino-forms" title="envio" style="display:none" aria-hidden="true"></iframe>
+
+<script src="app.js"></script>
+</body>
+</html>
